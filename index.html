@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <script
+      src="https://kit.fontawesome.com/f567967538.js"
+      crossorigin=""
+    ></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.0/flowbite.min.css"
+      rel="stylesheet"
+    />
+
+    <title>DataScience</title>
+  </head>
+  <body>
+    <div
+      class="bg-scale-down lg:bg-contain relative overflow-scroll"
+      style="background-image: url(./public/d1.jpeg); height: 1080px"
+    >
+      <div
+        class="absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-scroll bg-fixed"
+        style="background-color: rgba(0, 0, 0, 0.5)"
+      >
+        <!-- content -->
+
+        <div class="p-5 flex justify-center">
+          <div class="text-white">
+            <h1 class="mt-7 mb-12 md:text-4xl text-2xl font-bold">
+              Data Science <span class="text-cyan-400">VS Code Setup</span>
+            </h1>
+            <img
+              class="rounded-full h-[70px] mb-7"
+              src="./public/d2.jpeg"
+              alt=""
+            />
+            <h2
+              class="mb-12 font-semibold underline md:text-2xl text-[20px] underline-offset-4"
+            >
+              Step 1
+            </h2>
+
+            <!-- button   vscode -->
+            <a href="https://code.visualstudio.com/download" target="_blank">
+              <button
+                class="mb-12 rounded-full border-2 px-7 md:text-2xl text-xl bg-cyan-900 font-medium pb-[8px] pt-[10px] transition duration-250 ease-in-out hover:bg-neutral-500 hover:bg-opacity-5"
+              >
+                Install <span class="text-cyan-400">VSCode </span
+                ><i class="fa-solid fa-code"></i>
+              </button>
+            </a>
+
+            <h2
+              class="mb-12 font-semibold underline md:text-2xl text-[20px] underline-offset-4"
+            >
+              Step 2
+            </h2>
+
+            <!-- button python -->
+
+            <a href="https://www.python.org/downloads/" target="_blank">
+              <button
+                class="mb-12 rounded-full border-2 px-7 md:text-2xl text-xl bg-cyan-900 font-medium pb-[8px] pt-[10px] transition duration-250 ease-in-out hover:bg-neutral-500 hover:bg-opacity-5"
+                onclick=""
+              >
+                Install <span class="text-amber-400">Python </span>
+                <i class="fa-brands fa-python" style="color: #e5a50a"></i>
+              </button>
+            </a>
+
+            <h2
+              class="mb-12 font-semibold underline md:text-2xl text-[20px] underline-offset-4"
+            >
+              Step 3
+            </h2>
+
+            <!-- tutorial -->
+
+            <p class=" lg:text-[25px] text-[18px]">
+              Follow the Tutorial to Integrate and Work with Python in VSCode
+            </p>
+            <i class="text-[12px] text-gray-400">Use mouse scroll for navigation as drag scroll won't work properly in dropdown</i>
+
+            <button
+              id="dropdownDefaultButton"
+              data-dropdown-toggle="dropdown"
+              class="mt-7 w-full text-white bg-gray-400 hover:bg-slate-500 focus:ring-2 focus:outline-none focus:ring-blue-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex justify-center"
+              type="button"
+            >
+              Screenshot Turtorial
+              <svg
+                class="w-2.5 h-2.5 ml-2.5 mt-[5px]"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 10 6"
+              >
+                <path
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="m1 1 4 4 4-4"
+                />
+              </svg>
+            </button>
+            <!-- Dropdown menu -->
+            <div
+              id="dropdown"
+              class="hidden overflow-auto bg-white rounded-lg shadow lg:w-[800px] p-5"
+              style="background-color: black"
+            >
+              <ul>
+                <li>
+                  <img class="object-fit" src="./public/Python/1.png" alt="" />
+                  <p class="bg-slate-200 md:p-7 p-4   text-black">
+                    1) Select Option According to the image above & below while
+                    installing Python
+                  </p>
+                </li>
+
+                <li>
+                  <img class="" src="./public/Python/2.png" alt="" />
+                </li>
+                <li>
+                  <img class="" src="./public/Python/3.png" alt="" />
+                  <p class="bg-slate-200 md:p-7 p-4   text-black">
+                    2) Select Directory D and Create a Folder named
+                    <b>Python</b> and Select it and Click Ok
+                  </p>
+                </li>
+                <li>
+                  <img class="" src="./public/Python/4.png" alt="" />
+                </li>
+                <li>
+                  <img class="" src="./public/Python/5.png" alt="" />
+                  <p class="bg-slate-200  md:p-7 p-4  text-black">
+                    3) Search for "<b>Environmental variables in Search Bar</b>"
+                  </p>
+                </li>
+                <li>
+                  <img class="" src="./public/Python/6.png" alt="" />
+                  <p class="bg-slate-200  md:p-7 p-4 text-black">
+                    4) The above <i>Dialog Box</i> would appear.Click
+                    <b>Environmental variable..</b> button present in that
+                    Dialog Box
+                  </p>
+                </li>
+                <li>
+                  <img class="" src="./public/Python/7.png" alt="" />
+                  <p class="bg-slate-200  md:p-7 p-4  text-black">
+                    5) You Should Repeat the <b>Step(6 && 7)</b> for the <b>path</b> highlighted in gray color
+                     (Where I have provided Screenshot in setting up one of the variable)
+                  </p>
+                </li>
+                <li>
+                  <img class="" src="./public/Python/8.png" alt="" />
+                  <p class="bg-slate-200 md:p-7 p-4 text-black">
+                    6) Select any of the <b>path</b> as mentioned in the above step 
+                    Select a new row and Select <b>Browse</b> from your Right menu
+                    and then select the Directory where you are Provided with <b>python.exe</b>
+                    which if you had followed this procedure it would be <b><i>D:\Python</i></b>
+                    (You could also type the same if that was your Directory of Installation)
+                  </p>
+                </li>
+                <li>
+                  <img class="" src="./public/Python/9.png" alt="" />
+                 
+                </li>
+                <li>
+                  <img class="" src="./public/Python/10.png" alt="" />
+                  <p class="bg-slate-200 md:p-7 p-4 text-black">
+                    7) And then <b>Select a new row</b> and Direct to the <b>Scripts</b> Folder
+                    present inside the Python which would turn out as <b><i>D:\Python\Scripts</i></b>
+                    if you had followed the above mention steps as it was. 
+        
+                  </p>
+                </li>
+                <li>
+                  <img class="" src="./public/Python/11.png" alt="" />
+                  <p class="bg-slate-200 md:p-7 p-4 text-black">
+                    8) Make sure you get the Result similar to the image presented above
+                    if you had followed <b>Step 2</b> else ensure you got your Directory of 
+                    <b>python.exe</b> && <b>pip.exe <i>from Script Folder</i></b> Correctly.
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- content end -->
+      </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.0/flowbite.min.js"></script>
+  </body>
+</html>
