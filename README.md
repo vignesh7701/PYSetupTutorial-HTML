@@ -1,4 +1,5 @@
-# DSonVS
+# Python Setup with VS Code
+
 Tutorial Setting up the VS Code for the Data Analysis applications
 
 UPDATE 0.0
